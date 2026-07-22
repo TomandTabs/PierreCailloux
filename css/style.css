@@ -92,6 +92,20 @@ h3 { font-size: 1.35rem; margin-bottom: 0.4em; }
   letter-spacing: 0.02em;
 }
 
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logo-text small {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: var(--ink-soft);
+  letter-spacing: 0.06em;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -251,6 +265,49 @@ h3 { font-size: 1.35rem; margin-bottom: 0.4em; }
   font-size: 0.9rem !important;
   margin-top: auto !important;
 }
+
+/* ===== Demandes spéciales ===== */
+.special-request {
+  margin-top: 2.5rem;
+  background: var(--stone-dark);
+  color: #d9d2c5;
+  border-radius: var(--radius);
+  padding: 1.8rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.special-request h3 {
+  color: var(--white);
+  margin-bottom: 0.3rem;
+}
+
+.special-request p {
+  font-size: 0.95rem;
+  max-width: 560px;
+}
+
+.special-request .btn { flex-shrink: 0; }
+
+/* ===== Showroom ===== */
+.showroom {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.showroom-text > p { color: var(--ink-soft); max-width: 520px; }
+
+.showroom-hours {
+  margin-top: 1.6rem;
+  font-size: 0.95rem;
+}
+
+.showroom-hours strong { color: var(--accent); }
 
 /* ===== Avantages ===== */
 .benefits {
@@ -528,7 +585,7 @@ h3 { font-size: 1.35rem; margin-bottom: 0.4em; }
 
 /* ===== Adaptation mobile ===== */
 @media (max-width: 900px) {
-  .hero-inner, .about, .contact { grid-template-columns: 1fr; }
+  .hero-inner, .about, .contact, .showroom { grid-template-columns: 1fr; }
   .cards, .projects { grid-template-columns: 1fr 1fr; }
   .benefits { grid-template-columns: 1fr 1fr; }
   .hero-visual { order: -1; max-width: 420px; }
