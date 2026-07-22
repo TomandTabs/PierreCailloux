@@ -5,12 +5,24 @@ parement mural.
 
 ## Contenu
 
-- `index.html` — page d'accueil (héro, gamme de pierres, avantages,
-  réalisations, à propos, contact)
+- `index.html` — page d'accueil (héro, sélections, avantages, références,
+  histoire, showroom, contact)
 - `mentions-legales.html` — mentions légales (champs à compléter avec les
   informations de l'entreprise : SIRET, hébergeur, etc.)
+- `404.html` — page d'erreur personnalisée (servie par GitHub Pages)
 - `css/style.css` — feuille de style unique
+- `assets/` — image de partage réseaux sociaux (og-image) et icônes
+- `robots.txt` / `sitemap.xml` — référencement (SEO)
 - `CNAME` — domaine personnalisé pour GitHub Pages
+
+## SEO
+
+Le site inclut : titres et descriptions optimisés, URL canoniques, balises
+Open Graph et Twitter Card avec image de partage, données structurées
+schema.org (`HomeAndConstructionBusiness`), sitemap XML et robots.txt.
+Après la mise en ligne, penser à déclarer le site dans Google Search Console
+et à y soumettre `sitemap.xml`. Les données structurées (téléphone, adresse,
+horaires) sont à mettre à jour en même temps que la section Contact.
 
 Site 100 % statique : aucun outil de build, aucune dépendance. Les visuels sont
 des SVG intégrés, à remplacer par de vraies photos de chantiers quand elles
