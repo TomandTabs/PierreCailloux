@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Murpierre — Pierre naturelle pour parement mural</title>
+  <meta name="description" content="Murpierre, spécialiste de la pierre naturelle pour habiller vos murs intérieurs et extérieurs. Vente et pose de parements en pierre pour un effet authentique et durable.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='2' y='4' width='13' height='7' rx='1' fill='%238a7d6b'/><rect x='17' y='4' width='13' height='7' rx='1' fill='%23a99c88'/><rect x='2' y='13' width='8' height='7' rx='1' fill='%23a99c88'/><rect x='12' y='13' width='18' height='7' rx='1' fill='%238a7d6b'/><rect x='2' y='22' width='16' height='7' rx='1' fill='%23948871'/><rect x='20' y='22' width='10' height='7' rx='1' fill='%23a99c88'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#accueil" class="logo">
+      <svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true">
+        <rect x="2" y="4" width="13" height="7" rx="1" fill="#8a7d6b"/>
+        <rect x="17" y="4" width="13" height="7" rx="1" fill="#a99c88"/>
+        <rect x="2" y="13" width="8" height="7" rx="1" fill="#a99c88"/>
+        <rect x="12" y="13" width="18" height="7" rx="1" fill="#8a7d6b"/>
+        <rect x="2" y="22" width="16" height="7" rx="1" fill="#948871"/>
+        <rect x="20" y="22" width="10" height="7" rx="1" fill="#a99c88"/>
+      </svg>
+      <span>Murpierre</span>
+    </a>
+    <nav class="main-nav" id="nav">
+      <a href="#pierres">Nos pierres</a>
+      <a href="#avantages">Avantages</a>
+      <a href="#realisations">Réalisations</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact" class="nav-cta">Devis gratuit</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" onclick="document.getElementById('nav').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== Accueil / Héro ===== -->
+  <section class="hero" id="accueil">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="kicker">Pierre naturelle de parement</p>
+        <h1>La pierre naturelle qui habille vos murs</h1>
+        <p class="lead">
+          Murpierre sélectionne et pose des parements en pierre naturelle pour donner à vos
+          façades, murs intérieurs et clôtures un cachet authentique qui traverse les années.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Demander un devis gratuit</a>
+          <a href="#pierres" class="btn btn-ghost">Découvrir nos pierres</a>
+        </div>
+        <ul class="hero-points">
+          <li>Pierre 100&nbsp;% naturelle</li>
+          <li>Pose par nos artisans</li>
+          <li>Devis sous 48&nbsp;h</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 400 320" class="stone-wall">
+          <rect width="400" height="320" fill="#e7e0d4"/>
+          <g stroke="#d8cfc0" stroke-width="4">
+            <rect x="8"   y="10"  width="118" height="64" rx="4" fill="#a99c88"/>
+            <rect x="134" y="10"  width="160" height="64" rx="4" fill="#948871"/>
+            <rect x="302" y="10"  width="90"  height="64" rx="4" fill="#b3a793"/>
+            <rect x="8"   y="82"  width="80"  height="70" rx="4" fill="#8a7d6b"/>
+            <rect x="96"  y="82"  width="140" height="70" rx="4" fill="#b3a793"/>
+            <rect x="244" y="82"  width="148" height="70" rx="4" fill="#9c9080"/>
+            <rect x="8"   y="160" width="150" height="62" rx="4" fill="#948871"/>
+            <rect x="166" y="160" width="104" height="62" rx="4" fill="#a99c88"/>
+            <rect x="278" y="160" width="114" height="62" rx="4" fill="#877a66"/>
+            <rect x="8"   y="230" width="108" height="80" rx="4" fill="#b3a793"/>
+            <rect x="124" y="230" width="170" height="80" rx="4" fill="#8f826f"/>
+            <rect x="302" y="230" width="90"  height="80" rx="4" fill="#a99c88"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Nos pierres ===== -->
+  <section class="section" id="pierres">
+    <div class="container">
+      <p class="kicker">Notre gamme</p>
+      <h2>Nos pierres naturelles</h2>
+      <p class="section-intro">
+        Chaque pierre est choisie dans des carrières régionales pour sa teinte, sa texture
+        et sa résistance. Toutes conviennent aussi bien à l'intérieur qu'à l'extérieur.
+      </p>
+      <div class="cards">
+        <article class="card">
+          <div class="swatch" aria-hidden="true">
+            <svg viewBox="0 0 300 160">
+              <rect width="300" height="160" fill="#ded5c4"/>
+              <g stroke="#cfc5b2" stroke-width="3">
+                <rect x="4" y="4" width="90" height="48" rx="3" fill="#c9b998"/>
+                <rect x="100" y="4" width="120" height="48" rx="3" fill="#bfae8c"/>
+                <rect x="226" y="4" width="70" height="48" rx="3" fill="#d3c4a4"/>
+                <rect x="4" y="58" width="130" height="48" rx="3" fill="#b5a480"/>
+                <rect x="140" y="58" width="80" height="48" rx="3" fill="#cbbb9a"/>
+                <rect x="226" y="58" width="70" height="48" rx="3" fill="#bfae8c"/>
+                <rect x="4" y="112" width="70" height="44" rx="3" fill="#d3c4a4"/>
+                <rect x="80" y="112" width="140" height="44" rx="3" fill="#baa987"/>
+                <rect x="226" y="112" width="70" height="44" rx="3" fill="#c9b998"/>
+              </g>
+            </svg>
+          </div>
+          <h3>Plaquettes de parement</h3>
+          <p>
+            Fines lamelles de pierre à coller sur un mur existant. La solution idéale pour
+            rénover un salon, une cuisine ou une tête de lit avec un vrai relief minéral.
+          </p>
+          <p class="card-meta">Teintes beige, ocre et gris — dès 39&nbsp;€/m²</p>
+        </article>
+        <article class="card">
+          <div class="swatch" aria-hidden="true">
+            <svg viewBox="0 0 300 160">
+              <rect width="300" height="160" fill="#d9d9d6"/>
+              <g stroke="#c6c6c2" stroke-width="3">
+                <rect x="4" y="4" width="140" height="72" rx="3" fill="#9a9a94"/>
+                <rect x="150" y="4" width="146" height="72" rx="3" fill="#aeaea7"/>
+                <rect x="4" y="82" width="90" height="74" rx="3" fill="#b8b8b1"/>
+                <rect x="100" y="82" width="110" height="74" rx="3" fill="#8f8f88"/>
+                <rect x="216" y="82" width="80" height="74" rx="3" fill="#a4a49d"/>
+              </g>
+            </svg>
+          </div>
+          <h3>Moellons &amp; pierre à bâtir</h3>
+          <p>
+            Blocs bruts ou éclatés pour monter des murs pleins, murets de jardin et clôtures.
+            Un aspect massif et traditionnel, monté à la chaux ou en pierre sèche.
+          </p>
+          <p class="card-meta">Granit, calcaire et grès — dès 120&nbsp;€/tonne</p>
+        </article>
+        <article class="card">
+          <div class="swatch" aria-hidden="true">
+            <svg viewBox="0 0 300 160">
+              <rect width="300" height="160" fill="#e3dccd"/>
+              <g stroke="#d2c9b6" stroke-width="2">
+                <rect x="4" y="4" width="60" height="30" rx="2" fill="#b09c7e"/>
+                <rect x="68" y="4" width="96" height="30" rx="2" fill="#c4b191"/>
+                <rect x="168" y="4" width="52" height="30" rx="2" fill="#a8946f"/>
+                <rect x="224" y="4" width="72" height="30" rx="2" fill="#bca987"/>
+                <rect x="4" y="38" width="88" height="30" rx="2" fill="#c4b191"/>
+                <rect x="96" y="38" width="56" height="30" rx="2" fill="#b09c7e"/>
+                <rect x="156" y="38" width="84" height="30" rx="2" fill="#cdbb9c"/>
+                <rect x="244" y="38" width="52" height="30" rx="2" fill="#a8946f"/>
+                <rect x="4" y="72" width="52" height="30" rx="2" fill="#bca987"/>
+                <rect x="60" y="72" width="100" height="30" rx="2" fill="#a8946f"/>
+                <rect x="164" y="72" width="60" height="30" rx="2" fill="#c4b191"/>
+                <rect x="228" y="72" width="68" height="30" rx="2" fill="#b09c7e"/>
+                <rect x="4" y="106" width="96" height="30" rx="2" fill="#cdbb9c"/>
+                <rect x="104" y="106" width="60" height="30" rx="2" fill="#bca987"/>
+                <rect x="168" y="106" width="128" height="30" rx="2" fill="#b09c7e"/>
+                <rect x="4" y="140" width="140" height="16" rx="2" fill="#c4b191"/>
+                <rect x="148" y="140" width="148" height="16" rx="2" fill="#a8946f"/>
+              </g>
+            </svg>
+          </div>
+          <h3>Pierre sèche &amp; opus</h3>
+          <p>
+            Assemblage irrégulier de pierres plates pour un rendu champêtre et vivant.
+            Parfait pour les façades de caractère et les murs de soutènement.
+          </p>
+          <p class="card-meta">Schiste et pierre du pays — dès 55&nbsp;€/m²</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Avantages ===== -->
+  <section class="section section-alt" id="avantages">
+    <div class="container">
+      <p class="kicker">Pourquoi la pierre naturelle&nbsp;?</p>
+      <h2>Un matériau noble, des avantages durables</h2>
+      <div class="benefits">
+        <div class="benefit">
+          <div class="benefit-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/>
+            </svg>
+          </div>
+          <h3>Durabilité exceptionnelle</h3>
+          <p>La pierre résiste au gel, aux intempéries et au temps. Un mur en pierre naturelle se transmet de génération en génération.</p>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 4c-4 3-9 7-9 12a7 7 0 0 0 14 0c0-5-2-9-5-12z"/>
+            </svg>
+          </div>
+          <h3>Confort thermique</h3>
+          <p>Son inertie naturelle garde la fraîcheur l'été et restitue la chaleur l'hiver, pour un habitat plus agréable et plus sobre.</p>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3v18M3 12h18M5.5 5.5l13 13M18.5 5.5l-13 13"/>
+            </svg>
+          </div>
+          <h3>Effet naturel unique</h3>
+          <p>Chaque pierre est différente&nbsp;: nuances, veines et reliefs composent un mur qui ne ressemble à aucun autre.</p>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 21h18M5 21V10l7-6 7 6v11M9 21v-6h6v6"/>
+            </svg>
+          </div>
+          <h3>Valorisation du bien</h3>
+          <p>Un parement en pierre naturelle apporte du cachet et augmente durablement la valeur de votre maison.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Réalisations ===== -->
+  <section class="section" id="realisations">
+    <div class="container">
+      <p class="kicker">Notre savoir-faire</p>
+      <h2>Quelques réalisations récentes</h2>
+      <div class="projects">
+        <figure class="project">
+          <div class="project-visual tone-warm" aria-hidden="true"></div>
+          <figcaption>
+            <strong>Façade en plaquettes de calcaire</strong>
+            <span>Maison individuelle — 85&nbsp;m²</span>
+          </figcaption>
+        </figure>
+        <figure class="project">
+          <div class="project-visual tone-grey" aria-hidden="true"></div>
+          <figcaption>
+            <strong>Mur intérieur en schiste</strong>
+            <span>Séjour avec cheminée — 22&nbsp;m²</span>
+          </figcaption>
+        </figure>
+        <figure class="project">
+          <div class="project-visual tone-sand" aria-hidden="true"></div>
+          <figcaption>
+            <strong>Muret de jardin en pierre sèche</strong>
+            <span>Clôture et soutènement — 40&nbsp;ml</span>
+          </figcaption>
+        </figure>
+      </div>
+      <blockquote class="testimonial">
+        <p>«&nbsp;Travail soigné du premier contact à la dernière pierre. Notre façade a complètement changé de visage.&nbsp;»</p>
+        <cite>— M. et Mme Roche, rénovation de façade</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ===== À propos ===== -->
+  <section class="section section-alt" id="apropos">
+    <div class="container about">
+      <div class="about-text">
+        <p class="kicker">Qui sommes-nous&nbsp;?</p>
+        <h2>Une entreprise familiale, passionnée de pierre</h2>
+        <p>
+          Depuis plus de quinze ans, Murpierre accompagne particuliers, artisans et
+          architectes dans leurs projets de parement en pierre naturelle. De la sélection
+          en carrière jusqu'à la pose, nous maîtrisons chaque étape pour garantir un
+          résultat fidèle à la tradition et conforme aux règles de l'art.
+        </p>
+        <p>
+          Nous livrons dans toute la région et nos équipes de poseurs interviennent sur
+          chantiers neufs comme en rénovation.
+        </p>
+      </div>
+      <div class="stats">
+        <div class="stat"><span class="stat-number">15+</span><span class="stat-label">années d'expérience</span></div>
+        <div class="stat"><span class="stat-number">300+</span><span class="stat-label">chantiers réalisés</span></div>
+        <div class="stat"><span class="stat-number">100&nbsp;%</span><span class="stat-label">pierre naturelle</span></div>
+        <div class="stat"><span class="stat-number">10 ans</span><span class="stat-label">garantie décennale</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section" id="contact">
+    <div class="container contact">
+      <div class="contact-info">
+        <p class="kicker">Contact</p>
+        <h2>Parlons de votre projet</h2>
+        <p>
+          Décrivez-nous votre mur, votre façade ou votre idée&nbsp;: nous revenons vers vous
+          sous 48&nbsp;heures avec un devis gratuit et sans engagement.
+        </p>
+        <ul class="contact-list">
+          <li><strong>Téléphone</strong><a href="tel:+33400000000">04&nbsp;00&nbsp;00&nbsp;00&nbsp;00</a></li>
+          <li><strong>E-mail</strong><a href="mailto:contact@murpierre.com">contact@murpierre.com</a></li>
+          <li><strong>Atelier &amp; dépôt</strong><span>Zone artisanale des Carrières<br>France</span></li>
+          <li><strong>Horaires</strong><span>Lun–Ven&nbsp;: 8h–12h / 14h–18h<br>Sam&nbsp;: sur rendez-vous</span></li>
+        </ul>
+      </div>
+      <form class="contact-form" action="mailto:contact@murpierre.com" method="post" enctype="text/plain">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="Nom" required autocomplete="name">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="Email" required autocomplete="email">
+        <label for="telephone">Téléphone <span class="optional">(facultatif)</span></label>
+        <input type="tel" id="telephone" name="Telephone" autocomplete="tel">
+        <label for="message">Votre projet</label>
+        <textarea id="message" name="Message" rows="5" required placeholder="Ex. : parement d'un mur de salon d'environ 15 m², teinte beige…"></textarea>
+        <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+        <p class="form-note">Vos coordonnées ne sont utilisées que pour répondre à votre demande.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <span class="footer-brand">Murpierre</span>
+      <p>Pierre naturelle de parement — vente et pose.</p>
+    </div>
+    <nav class="footer-nav">
+      <a href="#pierres">Nos pierres</a>
+      <a href="#realisations">Réalisations</a>
+      <a href="#contact">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Murpierre — Tous droits réservés.</p>
+  </div>
+</footer>
+
+</body>
+</html>
