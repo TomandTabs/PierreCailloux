@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="L'atelier et le showroom Murpierre">
+  <rect width="1000" height="800" fill="#e9e3d7"/>
+  <!-- sol -->
+  <rect x="0" y="620" width="1000" height="180" fill="#d3cab8"/>
+  <!-- panneaux d'exposition (échantillons dressés) -->
+  <g stroke="#cbc0ac" stroke-width="6">
+    <rect x="70" y="150" width="220" height="470" rx="4" fill="#c1b294"/>
+    <rect x="330" y="150" width="220" height="470" rx="4" fill="#a3937a"/>
+    <rect x="590" y="150" width="220" height="470" rx="4" fill="#b6a789"/>
+  </g>
+  <!-- texture des panneaux -->
+  <g stroke="#b3a58c" stroke-width="3" opacity="0.6">
+    <line x1="70" y1="270" x2="290" y2="270"/>
+    <line x1="70" y1="390" x2="290" y2="390"/>
+    <line x1="70" y1="510" x2="290" y2="510"/>
+    <line x1="590" y1="240" x2="810" y2="240"/>
+    <line x1="590" y1="360" x2="810" y2="360"/>
+    <line x1="590" y1="480" x2="810" y2="480"/>
+  </g>
+  <!-- pile de dalles / cairn d'atelier -->
+  <g stroke="#8f8067" stroke-width="5">
+    <rect x="820" y="560" width="150" height="60" rx="6" fill="#9d8e74"/>
+    <rect x="835" y="508" width="120" height="52" rx="6" fill="#ab9c81"/>
+    <rect x="850" y="462" width="90" height="46" rx="6" fill="#bcac8d"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Sols et dallages en pierre naturelle">
+  <rect width="800" height="1000" fill="#e4ddd0"/>
+  <g stroke="#d0c6b2" stroke-width="6">
+    <rect x="12" y="12" width="252" height="252" rx="3" fill="#c3b596"/>
+    <rect x="274" y="12" width="252" height="252" rx="3" fill="#b6a789"/>
+    <rect x="536" y="12" width="252" height="252" rx="3" fill="#cabd9f"/>
+    <rect x="12" y="274" width="252" height="252" rx="3" fill="#b1a184"/>
+    <rect x="274" y="274" width="252" height="252" rx="3" fill="#c8ba9b"/>
+    <rect x="536" y="274" width="252" height="252" rx="3" fill="#a99a7e"/>
+    <rect x="12" y="536" width="252" height="252" rx="3" fill="#cabd9f"/>
+    <rect x="274" y="536" width="252" height="252" rx="3" fill="#b6a789"/>
+    <rect x="536" y="536" width="252" height="252" rx="3" fill="#bfb092"/>
+    <rect x="12" y="798" width="252" height="190" rx="3" fill="#b1a184"/>
+    <rect x="274" y="798" width="252" height="190" rx="3" fill="#c3b596"/>
+    <rect x="536" y="798" width="252" height="190" rx="3" fill="#ac9d80"/>
+  </g>
+</svg>
