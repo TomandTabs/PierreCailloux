@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Pièces sur mesure taillées dans la pierre">
+  <rect width="800" height="1000" fill="#e6ddce"/>
+  <!-- socle -->
+  <rect x="150" y="640" width="500" height="70" rx="6" fill="#9d8e74"/>
+  <!-- bloc taillé (vasque) -->
+  <path d="M190 360 h420 a24 24 0 0 1 24 24 v210 a46 46 0 0 1 -46 46 h-376 a46 46 0 0 1 -46 -46 v-210 a24 24 0 0 1 24 -24 z" fill="#c1b294" stroke="#ab9c81" stroke-width="6"/>
+  <!-- creux de la vasque -->
+  <ellipse cx="400" cy="430" rx="150" ry="42" fill="#a89877"/>
+  <ellipse cx="400" cy="424" rx="150" ry="42" fill="#8f8067"/>
+  <!-- veines -->
+  <path d="M210 520 q120 -30 240 4 t150 -6" fill="none" stroke="#b3a58c" stroke-width="4" opacity="0.7"/>
+  <path d="M210 560 q140 24 300 -2" fill="none" stroke="#b3a58c" stroke-width="4" opacity="0.5"/>
+</svg>
